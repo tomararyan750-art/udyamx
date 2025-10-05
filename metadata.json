@@ -1,0 +1,8 @@
+{
+  "name": "UdyamX",
+  "description": "An AI-powered Co-Pilot for MSMEs, offering business guidance, voice-command invoicing, inventory management, and a hyperlocal business network. Designed with offline-first functionality to support businesses anywhere.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

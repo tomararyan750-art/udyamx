@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Home",
+    "copilot": "Co-Pilot",
+    "invoice": "Invoice",
+    "inventory": "Inventory",
+    "schemes": "Schemes",
+    "loans": "Loans",
+    "network": "Network"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, Business Owner!",
+    "trustScoreTitle": "Digital Trust Score",
+    "trustScoreDescription": "Improve your score by completing tasks to unlock smart micro-credit options.",
+    "trustScoreLabel": "Trust Score",
+    "journeyTitle": "Your Growth Journey",
+    "achievements": {
+      "invoices": "Generate 10 Invoices",
+      "products": "Add 20 Products",
+      "copilot": "First Co-Pilot Query",
+      "network": "Connect with 5 MSMEs"
+    },
+    "status": {
+        "completed": "Completed",
+        "inProgress": "In Progress"
+    },
+    "quickActionsTitle": "Quick Actions",
+    "actions": {
+      "aiCopilot": "AI Co-Pilot",
+      "newInvoice": "New Invoice"
+    },
+    "salesAnalytics": {
+        "title": "Sales Analytics",
+        "day": "Per Day",
+        "week": "Weekly",
+        "month": "Monthly",
+        "aiInsightsTitle": "AI Insights",
+        "insights_day": "Your busiest day is Wednesday. Consider a mid-week promotion to maximize sales.",
+        "insights_week": "Sales show a 15% increase this week! The weekend promotion was a success.",
+        "insights_month": "There's a seasonal dip in sales this month. Let's plan a flash sale to boost engagement for next year."
+    },
+    "newsTicker": {
+      "title": "NEWS",
+      "headlines": "Govt. announces new PLI scheme for electronics manufacturing. ••• RBI keeps repo rate unchanged, expects stable growth. ••• MSME registration on Udyam portal crosses 2 crore mark."
+    }
+  },
+  "copilot": {
+      "welcome": "Hello! I'm your UdyamX Co-Pilot. How can I help you grow your business today?",
+      "placeholder": "Ask your Co-Pilot...",
+      "errors": {
+          "unsupported": "Voice recognition is not supported by your browser.",
+          "permission": "Speech recognition error: {error}. Please ensure microphone permissions are granted.",
+          "startError": "Could not start voice recognition. Please try again."
+      }
+  },
+  "invoice": {
+      "savedInvoicesTitle": "Saved Invoices",
+      "noSavedInvoices": "No saved invoices yet.",
+      "newInvoiceTitle": "New Invoice",
+      "generateWithVoice": "Generate with Voice",
+      "listening": "Listening...",
+      "clientNameLabel": "Client Name",
+      "itemsTitle": "Items",
+      "itemDescriptionPlaceholder": "Description",
+      "itemQtyPlaceholder": "Qty",
+      "itemPricePlaceholder": "Price",
+      "addItem": "Add Item",
+      "totalLabel": "Total:",
+      "saveDraft": "Save Draft",
+      "print": "Print / Download PDF",
+      "alerts": {
+          "voiceCommandReceived": "Voice command received! Populating invoice with sample data.",
+          "draftValidation": "Please fill out the client name and all item details correctly to save a draft.",
+          "draftSaved": "Invoice saved as draft!",
+          "printValidation": "Please fill in client name and item details before printing.",
+          "syncMessage": "{count} queued invoice(s) have been sent."
+      }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "scan": "Scan Barcode",
+    "addManual": "Add Manual",
+    "empty": "Your inventory is empty.",
+    "empty_sub": "Add products to get started.",
+    "inStock": "In Stock",
+    "scanner": {
+      "scanMessage": "Point camera at barcode...",
+      "detected": "Barcode detected!",
+      "errorTitle": "Camera Error",
+      "errorMessage": "Could not access the camera. Please ensure permissions are granted in your browser settings.",
+      "cancel": "Cancel"
+    },
+    "modal": {
+      "addProduct": "Add New Product",
+      "skuLabel": "SKU (Stock Keeping Unit)",
+      "nameLabel": "Item Name",
+      "qtyLabel": "Quantity",
+      "priceLabel": "Price (₹)",
+      "cancel": "Cancel",
+      "save": "Save Product",
+      "validation": "Please provide a valid name, quantity, and price."
+    },
+    "alerts": {
+      "quantityUpdated": "'{name}' quantity updated to {quantity}.",
+      "itemAdded": "New item '{name}' automatically added to inventory."
+    }
+  },
+  "network": {
+    "title": "Hyperlocal Network",
+    "searchPlaceholder": "Search businesses or categories...",
+    "message": "Message"
+  },
+  "schemes": {
+    "title": "Government Schemes",
+    "description": "Explore various government schemes designed to support and grow your MSME business.",
+    "eligibility": "Eligibility",
+    "learnMore": "Learn More"
+  },
+  "loans": {
+    "title": "Loan Providers",
+    "description": "Find the right financial partner to fuel your business growth.",
+    "interestRate": "Interest Rate",
+    "minLoanAmount": "Min. Loan Amount",
+    "applyNow": "Apply Now"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Ankit Sharma",
+    "email": "ankit.sharma@example.com",
+    "businessName": "\"Sharma Kirana Store\"",
+    "joined": "Joined on: Jan 15, 2024",
+    "language": {
+      "title": "Select Language"
+    },
+    "actions": {
+      "accountSettings": "Account Settings",
+      "help": "Help & Support",
+      "logout": "Log Out"
+    }
+  },
+  "notifications": {
+    "newScheme": {
+        "title": "New Government Scheme",
+        "message": "The 'Digital MSME' scheme has been launched. Check your eligibility."
+    },
+    "panel": {
+        "title": "Notifications",
+        "empty": "You have no new notifications."
+    }
+  },
+  "offline": "Offline"
+}
