@@ -64,6 +64,7 @@
       "itemDescriptionPlaceholder": "Description",
       "itemQtyPlaceholder": "Qty",
       "itemPricePlaceholder": "Price",
+      "itemTotal": "Item Total",
       "addItem": "Add Item",
       "totalLabel": "Total:",
       "saveDraft": "Save Draft",
@@ -73,7 +74,23 @@
           "draftValidation": "Please fill out the client name and all item details correctly to save a draft.",
           "draftSaved": "Invoice saved as draft!",
           "printValidation": "Please fill in client name and item details before printing.",
-          "syncMessage": "{count} queued invoice(s) have been sent."
+          "syncMessage": "{count} queued invoice(s) have been sent.",
+          "voiceParseError": "Sorry, I couldn't understand the items. Please try again or enter them manually."
+      },
+      "voice": {
+        "askClientName": "What is the client's name?",
+        "askItems": "Okay, client is {clientName}. Now, what are the items for the invoice?",
+        "askItemsProcessing": "Okay, client is {clientName}. Now, listing items...",
+        "confirmItems": "Great, I've added the items. Please review the invoice.",
+        "statusListening": "Listening...",
+        "statusProcessing": "Processing...",
+        "statusSpeaking": "Speaking...",
+        "exampleItems": "E.g., 'Two dozen croissants', 'remove soap', or 'change croissants to one dozen'",
+        "noSpeech": "I didn't hear anything. Could you please repeat?",
+        "askMoreItems": "Anything else?",
+        "confirmations": {
+          "changesMade": "Okay, I've updated the list."
+        }
       }
   },
   "inventory": {
